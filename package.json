@@ -1,0 +1,41 @@
+{
+    "name": "",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "license": "AGPL-version-3.0",
+    "private": false,
+    "engines": {
+      "node": ">= 14.0.0",
+      "npm": ">= 6.0.0"
+    },
+    "homepage": "",
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "bugs": "",
+    "keywords": [],
+    "author": {
+      "name": "Team 20",
+      "email": "",
+      "url": "https://github.com/dannycedrone/326-webapp-ms2"
+    },
+    "contributors": [
+      "Albi Marini, albimarini@umass.edu, Nathan Pearce npearce@umass.edu, Nicole Kaldus, nkaldus@umass.edu, Danny Cedrone, jcedrone@umass.edu"
+    ],
+    "scripts": {
+      "milestone-02": "http-server src -p 3000 -c-1 -o /docs/milestone-02/index.html",
+      "validate-html": "html-validate 'src/**/*.html'",
+      "prettier": "prettier src --write",
+      "dev": "",
+      "test": ""
+    },
+    "devDependencies": {
+      "html-validate": "^8.11.1",
+      "http-server": "^14.1.1",
+      "prettier": "^3.2.5"
+    }
+  }
+  
